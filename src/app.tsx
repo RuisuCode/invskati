@@ -392,7 +392,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="http://www.minci.gob.ve/wp-content/uploads/2016/10/TICs.png"
+            image="https://www.iep-edu.com.co/wp-content/uploads/2020/12/tic.png"
             title="Investigacion"
           />
           <Box

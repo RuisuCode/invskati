@@ -32,7 +32,9 @@ export default function TableContent() {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText> ¿Que es Sociedad?</ListItemText>
+              <ListItemText>
+                <Typography fontSize={"11px"}>¿Que es Sociedad?</Typography>
+              </ListItemText>
             </MenuItem>
           </a>
           <a
@@ -43,7 +45,11 @@ export default function TableContent() {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>¿Que es Calidad de Vida?</ListItemText>
+              <ListItemText>
+                <Typography fontSize={"11px"}>
+                  ¿Que es Calidad de Vida?
+                </Typography>
+              </ListItemText>
             </MenuItem>
           </a>
           <a
@@ -54,7 +60,9 @@ export default function TableContent() {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>¿Que es Conocimiento?</ListItemText>
+              <ListItemText>
+                <Typography fontSize={"11px"}>¿Que es Conocimiento?</Typography>
+              </ListItemText>
             </MenuItem>
           </a>
           <a
@@ -65,7 +73,9 @@ export default function TableContent() {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>¿Que es informacion?</ListItemText>
+              <ListItemText>
+                <Typography fontSize={"11px"}>¿Que es informacion?</Typography>
+              </ListItemText>
             </MenuItem>
           </a>
           <a
@@ -78,7 +88,7 @@ export default function TableContent() {
             <MenuItem sx={{ justifyContent: "center" }}>
               <ListItemText>
                 <Typography fontSize={"11px"}>
-                  Tecnologia de <br /> Informacion <br /> y Conomiento
+                  Tecnologia de <br /> Informacion y Conomiento
                 </Typography>
               </ListItemText>
             </MenuItem>
@@ -91,7 +101,11 @@ export default function TableContent() {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>Globalizacion economica</ListItemText>
+              <ListItemText>
+                <Typography fontSize={"11px"}>
+                  Globalizacion economica
+                </Typography>
+              </ListItemText>
             </MenuItem>
           </a>
           <a
@@ -102,32 +116,8 @@ export default function TableContent() {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>Pais Sub-desarrollado</ListItemText>
-            </MenuItem>
-          </a>
-          <a
-            href="#cscon"
-            style={{
-              textDecoration: "none",
-              color: "#000",
-            }}
-          >
-            <MenuItem sx={{ justifyContent: "center" }}>
               <ListItemText>
-                Sociedad de <br /> la Informacicon
-              </ListItemText>
-            </MenuItem>
-          </a>
-          <a
-            href="#scon"
-            style={{
-              textDecoration: "none",
-              color: "#000",
-            }}
-          >
-            <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                Sociedad del <br /> Conocimiento
+                <Typography fontSize={"11px"}>Pais Sub-desarrollado</Typography>
               </ListItemText>
             </MenuItem>
           </a>
@@ -141,7 +131,37 @@ export default function TableContent() {
             <MenuItem sx={{ justifyContent: "center" }}>
               <ListItemText>
                 <Typography fontSize={"11px"}>
-                  Características de <br /> la sociedad <br /> del conocimiento{" "}
+                  Sociedad de <br /> la Informacicon
+                </Typography>
+              </ListItemText>
+            </MenuItem>
+          </a>
+          <a
+            href="#scon"
+            style={{
+              textDecoration: "none",
+              color: "#000",
+            }}
+          >
+            <MenuItem sx={{ justifyContent: "center" }}>
+              <ListItemText>
+                <Typography fontSize={"11px"}>
+                  Sociedad del <br /> Conocimiento
+                </Typography>
+              </ListItemText>
+            </MenuItem>
+          </a>
+          <a
+            href="#cscon"
+            style={{
+              textDecoration: "none",
+              color: "#000",
+            }}
+          >
+            <MenuItem sx={{ justifyContent: "center" }}>
+              <ListItemText>
+                <Typography fontSize={"11px"}>
+                  Características de <br /> la sociedad del conocimiento{" "}
                 </Typography>
               </ListItemText>
             </MenuItem>
@@ -188,7 +208,7 @@ export default function TableContent() {
             <MenuItem sx={{ justifyContent: "center" }}>
               <ListItemText>
                 <Typography fontSize={"11px"}>
-                  importancia de <br /> la sociedad de <br /> información
+                  importancia de <br /> la sociedad de información
                 </Typography>
               </ListItemText>
             </MenuItem>
@@ -203,7 +223,7 @@ export default function TableContent() {
             <MenuItem sx={{ justifyContent: "center" }}>
               <ListItemText>
                 <Typography fontSize={"11px"}>
-                  importancia de <br /> la sociedad de <br /> conocimiento
+                  importancia de <br /> la sociedad de conocimiento
                 </Typography>
               </ListItemText>
             </MenuItem>
