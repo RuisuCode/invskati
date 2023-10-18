@@ -1,2 +1,1 @@
-Instalar Node.js.
-npm run dev
+Investigacion de Katiuska Nuñez
