@@ -40,7 +40,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 151 }}
-            image="https://w7.pngwing.com/pngs/181/348/png-transparent-computer-icons-research-others.png"
+            image="blob:https://www.pngwing.com/4660b102-eeb0-4700-b8fe-a11bdf66f584"
             title="Investigacion"
           />
           <Box
