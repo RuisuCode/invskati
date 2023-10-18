@@ -39,8 +39,8 @@ export default function PagKati() {
         >
           <CardMedia
             component="img"
-            sx={{ width: 151 }}
-            image="blob:https://www.pngwing.com/4660b102-eeb0-4700-b8fe-a11bdf66f584"
+            sx={{ width: 171, borderRadius: "13px" }}
+            image="https://www.compilatio.net/media/cache/blog_main/2023/01/6188-visuels-d-entete-de-blog-1.png"
             title="Investigacion"
           />
           <Box
@@ -89,7 +89,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 300, borderRadius: "13px" }}
-            image="src\shared\assets\sociedad-e1574394980949.jpg"
+            image="https://humanidades.com/wp-content/uploads/2018/08/sociedad-e1574394980949.jpg"
             title="Sociedad"
           />
           <Box
@@ -161,7 +161,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\cal_vida.png"
+            image="https://3.bp.blogspot.com/-menJFqXHuHw/WN_0NwNRDzI/AAAAAAAALkc/P0kkKDfebaws9y3tbimM7KsxJJ4P6VEvgCLcB/s1600/tgfhyjk.png"
             title="Investigacion"
           />
           <Box
@@ -251,7 +251,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\cono.png"
+            image="https://comunicarte.idartes.gov.co/sites/default/files/field/image/NOTICIA%20MAPA.png"
             title="Investigacion"
           />
           <Box
@@ -324,7 +324,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\info.png"
+            image="https://img.freepik.com/vector-premium/concepto-busqueda-informacion-web-caracter-usando-lupa-encontrar-informacion-internet_269730-197.jpg?w=740"
             title="Investigacion"
           />
           <Box
@@ -392,7 +392,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\TICs.png"
+            image="http://www.minci.gob.ve/wp-content/uploads/2016/10/TICs.png"
             title="Investigacion"
           />
           <Box
@@ -475,7 +475,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\glob.jpg"
+            image="https://i0.wp.com/criptotendencia.com/wp-content/uploads/2019/03/Que-es-la-Globalizacion-Economica.jpg?fit=1000%2C750&ssl=1"
             title="Investigacion"
           />
           <Box
@@ -632,7 +632,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\psub.png"
+            image="https://1.bp.blogspot.com/-ZqzSDOK40Hs/Wrpmifq0jhI/AAAAAAAAUj8/C3A5qkc5SeAZYEMw3Onv9HUzmbGjoosAwCLcBGAs/s1600/PA%25C3%258DSES%2BSUBDESARROLLADOS.png"
             title="Investigacion"
           />
           <Box
@@ -702,7 +702,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\sinfo.jpg"
+            image="https://1.bp.blogspot.com/-0pgLQS8keKY/X778IpXC5EI/AAAAAAAAAGw/Kz04q2__dWwRN9VO0AUro50zXz_5fbBvACLcBGAsYHQ/s756/SIE_2_13-big.jpg"
             title="Investigacion"
           />
           <Box
@@ -776,7 +776,7 @@ export default function PagKati() {
           <CardMedia
             component="img"
             sx={{ width: 251, borderRadius: "13px" }}
-            image="src\shared\assets\scon.jpg"
+            image="https://www.cesuma.mx/blog/wp-content/uploads/2023/05/grupo-de-personas-compartiendo-lecturas.jpg"
             title="Investigacion"
           />
           <Box
