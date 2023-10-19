@@ -1,6 +1,5 @@
 import {
   Box,
-  Card,
   CardContent,
   CardMedia,
   Container,
@@ -27,54 +26,63 @@ export default function PagKati() {
     <>
       <Stack justifyContent={"center"} alignItems={"center"}>
         <span id="investigacion"></span>
-        <Card
-          sx={{
-            display: "flex",
-            bgcolor: "#A970FF",
-            p: 2,
-            mt: 3,
-            boxShadow: 5,
-            borderRadius: 3,
-          }}
-        >
-          <CardMedia
-            component="img"
-            sx={{ width: 171, borderRadius: "13px" }}
-            image="https://www.compilatio.net/media/cache/blog_main/2023/01/6188-visuels-d-entete-de-blog-1.png"
-            title="Investigacion"
-          />
-          <Box
+        <Stack>
+          <Stack
             sx={{
-              display: "flex",
-              flexDirection: "column",
+              bgcolor: "#A970FF",
+              p: 2,
+              mt: "50px",
+              boxShadow: 5,
+              borderRadius: 3,
             }}
+            direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+            spacing={{ xs: 2, sm: 1, md: 4 }}
+            alignItems={"center"}
           >
-            <CardContent
+            <CardMedia
+              component="img"
+              sx={{ width: 171, borderRadius: "13px" }}
+              image="https://www.compilatio.net/media/cache/blog_main/2023/01/6188-visuels-d-entete-de-blog-1.png"
+              title="Investigacion"
+            />
+            <Box
               sx={{
-                flex: "1 0 auto",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
-              <Typography
-                sx={{ textAlign: "center" }}
-                color={"secondary"}
-                variant="h2"
+              <Box
+                sx={{
+                  flex: "1 0 auto",
+                  p: 1,
+                }}
               >
-                Investigación
-              </Typography>
-              <Typography variant="subtitle1" color="secondary" component="div">
-                <u> Tema 1:</u> Historia y evolucion de la sociedad de la
-                informacion y de la sociedad del <br />
-                conocimiento <br /> <u> Materia:</u>Sociedad del Conocimiento{" "}
-                <br />
-                <u> Profa.:</u>Katiuska Nuñez
-              </Typography>
-            </CardContent>
-            <Box
-              sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
-            ></Box>
-          </Box>
-        </Card>
-        <Card
+                <Typography
+                  sx={{ textAlign: "center" }}
+                  color={"secondary"}
+                  variant="h2"
+                >
+                  Investigación
+                </Typography>
+                <Typography
+                  variant="subtitle1"
+                  color="secondary"
+                  component="div"
+                >
+                  <u> Tema 1:</u> Historia y evolucion de la sociedad de la
+                  informacion y de la sociedad del <br />
+                  conocimiento <br /> <u> Materia:</u>Sociedad del Conocimiento{" "}
+                  <br />
+                  <u> Profa.:</u>Katiuska Nuñez
+                </Typography>
+              </Box>
+              <Box
+                sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
+              ></Box>
+            </Box>
+          </Stack>
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -83,12 +91,15 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
-            sx={{ width: 300, borderRadius: "13px" }}
+            sx={{ maxWidth: 300, borderRadius: "13px" }}
             image="https://humanidades.com/wp-content/uploads/2018/08/sociedad-e1574394980949.jpg"
             title="Sociedad"
           />
@@ -144,8 +155,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -154,9 +165,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -234,8 +248,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -244,9 +258,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -307,8 +324,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -317,9 +334,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -375,8 +395,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -385,9 +405,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -458,8 +481,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -468,9 +491,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -533,8 +559,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -543,9 +569,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/*  <CardMedia
             component="img"
@@ -615,8 +644,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -625,9 +654,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -685,8 +717,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -695,9 +727,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -759,8 +794,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -769,9 +804,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           <CardMedia
             component="img"
@@ -830,8 +868,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -840,9 +878,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/* <CardMedia
             component="img"
@@ -911,8 +952,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -921,9 +962,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/*   <CardMedia
             component="img"
@@ -992,8 +1036,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -1002,9 +1046,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/* <CardMedia
             component="img"
@@ -1068,8 +1115,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -1078,9 +1125,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/* <CardMedia
             component="img"
@@ -1143,8 +1193,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -1153,9 +1203,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/* <CardMedia
             component="img"
@@ -1216,8 +1269,8 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
-        <Card
+        </Stack>
+        <Stack
           sx={{
             display: "flex",
             p: 2,
@@ -1226,9 +1279,12 @@ export default function PagKati() {
             borderRadius: 3,
             border: "solid",
             borderColor: "#A970FF",
-            width: "65%",
             alignItems: "center",
+            maxWidth: "860px",
           }}
+          direction={{ xs: "column", sm: "row", md: "row", lg: "row" }}
+          spacing={{ xs: 2, sm: 1, md: 4 }}
+          alignItems={"center"}
         >
           {/* <CardMedia
             component="img"
@@ -1284,7 +1340,7 @@ export default function PagKati() {
               sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
             ></Box>
           </Box>
-        </Card>
+        </Stack>
         <Box component="footer" sx={{ bgcolor: "transparent", py: 6 }}>
           <Container maxWidth="lg">
             <Typography variant="h6" align="center" gutterBottom>
