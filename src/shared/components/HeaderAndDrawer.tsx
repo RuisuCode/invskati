@@ -34,7 +34,7 @@ export default function ResponsiveDrawer(props: Props) {
         <MenuList sx={{ textAlign: "center", color: "#fff" }}>
           <Typography variant="h6"> Indice</Typography>
           <a
-            href="#investigacion"
+            href="#soci"
             style={{
               textDecoration: "none",
               color: "#fff",
@@ -131,7 +131,7 @@ export default function ResponsiveDrawer(props: Props) {
             </MenuItem>
           </a>
           <a
-            href="#cscon"
+            href="#sinfo"
             style={{
               textDecoration: "none",
               color: "#fff",
