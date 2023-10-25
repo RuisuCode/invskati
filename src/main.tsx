@@ -6,8 +6,8 @@ import { theme } from "./shared/styled-components/theme/theme.ts";
 import ResponsiveDrawer from "./shared/components/HeaderAndDrawer.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <ThemeProvider theme={theme}>
-    <ResponsiveDrawer />
     <CssBaseline />
     <PagKati />
+    <ResponsiveDrawer />
   </ThemeProvider>
 );

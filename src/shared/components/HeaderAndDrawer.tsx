@@ -8,7 +8,8 @@ import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Typography from "@mui/material/Typography";
-import { MenuList, MenuItem } from "@mui/material";
+import { MenuList, MenuItem, ListItemIcon } from "@mui/material";
+import { Bookmarks, ArrowRight } from "@mui/icons-material";
 
 const drawerWidth = 200;
 
@@ -32,7 +33,23 @@ export default function ResponsiveDrawer(props: Props) {
     <div>
       <List>
         <MenuList sx={{ textAlign: "center", color: "#fff" }}>
-          <Typography variant="h6"> Indice</Typography>
+          <ListItemIcon
+            sx={{
+              justifyContent: "center",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <Bookmarks
+              sx={{ mt: "5px", mr: 1 }}
+              fontSize="small"
+              color="secondary"
+            />
+            <Typography variant="h6" color={"#fff"}>
+              {" "}
+              Indice
+            </Typography>
+          </ListItemIcon>
           <a
             href="#soci"
             style={{
@@ -41,9 +58,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>¿Que es Sociedad?</Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    ¿Que es Sociedad?
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -54,11 +83,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  ¿Que es Calidad de Vida?
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    ¿Que es Calidad de Vida?
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -69,9 +108,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>¿Que es Conocimiento?</Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    ¿Que es Conocimiento?
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -82,9 +133,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>¿Que es informacion?</Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    ¿Que es informacion?
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -95,11 +158,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Tecnologia de <br /> Informacion y Conomiento
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Tecnologia de <br /> Informacion y Conomiento
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -110,11 +183,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Globalizacion economica
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Globalizacion economica
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -125,9 +208,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>Pais Sub-desarrollado</Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Pais Sub-desarrollado
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -138,11 +233,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Sociedad de <br /> la Informacicon
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Sociedad de <br /> la Informacicon
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -153,11 +258,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Sociedad del <br /> Conocimiento
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Sociedad del <br /> Conocimiento
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -168,11 +283,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Características de <br /> la sociedad del conocimiento{" "}
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Características de <br /> la sociedad del conocimiento{" "}
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -183,12 +308,22 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Características de <br /> la sociedad <br />
-                  de informacion
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Características de <br /> la sociedad <br />
+                    de informacion
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -199,12 +334,22 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  Características de <br /> la globalización <br />
-                  economica
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    Características de <br /> la globalización <br />
+                    economica
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -215,11 +360,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  importancia de <br /> la sociedad de información
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    importancia de <br /> la sociedad de información
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
           <a
@@ -230,11 +385,21 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <MenuItem sx={{ justifyContent: "center" }}>
-              <ListItemText>
-                <Typography fontSize={"11px"}>
-                  importancia de <br /> la sociedad de conocimiento
-                </Typography>
-              </ListItemText>
+              <ListItemIcon
+                sx={{
+                  justifyContent: "center",
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <ArrowRight fontSize="small" color="secondary" />
+                <ListItemText>
+                  <Typography fontSize={"11px"} color={"#fff"}>
+                    importancia de <br /> la sociedad de conocimiento
+                  </Typography>
+                </ListItemText>
+              </ListItemIcon>
             </MenuItem>
           </a>
         </MenuList>

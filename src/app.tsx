@@ -4,24 +4,11 @@ import {
   CardContent,
   CardMedia,
   Container,
-  Link,
   Stack,
   Typography,
   CircularProgress,
 } from "@mui/material";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="#investigacion">
-        RuisuCode
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+import Copyright from "./shared/components/copyright";
 
 export default function PagKati() {
   const [isLoading, setloading] = useState(false);
@@ -29,18 +16,18 @@ export default function PagKati() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 6000);
+    }, 4000);
   }, []);
 
   return (
     <>
-      <Stack justifyContent={"center"} alignItems={"center"}>
-        {isLoading ? (
-          <Stack justifyContent="center" alignItems="center" m={2}>
-            <CircularProgress size={"60px"} sx={{ mt: "200px" }} color="info" />
-          </Stack>
-        ) : (
-          <>
+      {isLoading ? (
+        <Stack justifyContent="center" alignItems="center" m={2}>
+          <CircularProgress size={"60px"} sx={{ mt: "200px" }} color="info" />
+        </Stack>
+      ) : (
+        <>
+          <Stack justifyContent={"center"} alignItems={"center"}>
             <span id="investigacion"></span>
             <Stack>
               <Stack
@@ -1395,9 +1382,9 @@ export default function PagKati() {
                 <Copyright />
               </Container>
             </Box>
-          </>
-        )}
-      </Stack>
+          </Stack>
+        </>
+      )}
     </>
   );
 }
