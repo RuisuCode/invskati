@@ -429,6 +429,7 @@ export default function ResponsiveDrawer(props: Props) {
           sx={{
             ml: "1px",
             mr: "90%",
+            height: "45px",
             display: { sm: "none" },
             borderRadius: "13px",
           }}
