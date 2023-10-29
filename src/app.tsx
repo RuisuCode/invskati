@@ -9,6 +9,7 @@ import {
   CircularProgress,
 } from "@mui/material";
 import Copyright from "./shared/components/copyright";
+import ResponsiveDrawer from "./shared/components/HeaderAndDrawer";
 
 export default function PagKati() {
   const [isLoading, setloading] = useState(false);
@@ -27,6 +28,7 @@ export default function PagKati() {
         </Stack>
       ) : (
         <>
+          <ResponsiveDrawer />
           <Stack justifyContent={"center"} alignItems={"center"}>
             <span id="investigacion"></span>
             <Stack>

@@ -1,13 +1,14 @@
 import ReactDOM from "react-dom/client";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import PagKati from "./app.tsx";
 import "./shared/styles/index.css";
 import { theme } from "./shared/styled-components/theme/theme.ts";
-import ResponsiveDrawer from "./shared/components/HeaderAndDrawer.tsx";
+import { BrowserRouter } from "react-router-dom";
+import RouterApp from "./router/index.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <ThemeProvider theme={theme}>
-    <CssBaseline />
-    <PagKati />
-    <ResponsiveDrawer />
-  </ThemeProvider>
+  <BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <RouterApp />
+    </ThemeProvider>
+  </BrowserRouter>
 );
