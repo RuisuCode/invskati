@@ -23,7 +23,7 @@ const rows = [
     "62",
     "Fritz Machlup",
     "“la información y el conocimiento se habían convertido en los principales factores de producción en las sociedades modernas.”",
-    "Radio"
+    "Radio y Televisión"
   ),
   createData(
     "78",
