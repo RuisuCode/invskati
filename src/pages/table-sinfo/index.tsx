@@ -20,27 +20,26 @@ function createData(
 
 const rows = [
   createData(
-    "60",
-    "Peter Drucker",
-    `Lo más importante no  era la cantidad 
-    de conocimiento, sino su productividad `,
-    "La era de la discontinuidad"
+    "62",
+    "Fritz Machlup",
+    "“la información y el conocimiento se habían convertido en los principales factores de producción en las sociedades modernas.”",
+    "Radio"
   ),
   createData(
-    "2000",
-    "Manuel Castells",
-    " “La sociedad red se caracteriza por la interconexión global de las personas y las organizaciones a través de las tecnologías de la información y la comunicación (TIC).” ",
-    "La era de la información"
+    "78",
+    ` Simon Nora y Alain Minc`,
+    "Identificaron:La centralidad de la información, La interconexión Global, La transformación de las actividades economicas, La democratización del conocimiento.",
+    "Internet"
   ),
   createData(
-    "2005",
-    "UNESCO",
-    "“Es la capacidad para identificar, producir, tratar, transformar, difundir y utilizar la información con vistas a crear y aplicar los conocimientos necesarios para el desarrollo humano” ",
-    "Hacia las sociedades del conocimiento"
+    "80",
+    "Yoneji Masuda",
+    "Identificó los elementos que caracterizan la sociedad de la información, como la difusión de las TIC, la importancia de la información y el conocimiento, y la interconexión global.",
+    "Internet"
   ),
 ];
 
-export default function TableScon() {
+export default function TableSinfo() {
   return (
     <>
       <ResponsiveDrawer />
@@ -95,8 +94,7 @@ export default function TableScon() {
         </Stack>
         <Stack mt={"50px"} width={"98%"}>
           <Typography
-            variant="h5"
-            fontSize={"28px"}
+            variant="h4"
             mb={1}
             textAlign={"center"}
             sx={{
@@ -104,7 +102,7 @@ export default function TableScon() {
               textDecorationColor: "#A970FF",
             }}
           >
-            Sociedad del Conocimiento
+            Sociedad de la Información
           </Typography>
           <TableContainer
             sx={{ borderRadius: "15px", boxShadow: 5 }}
@@ -130,7 +128,7 @@ export default function TableScon() {
                           textDecorationColor: "#fff",
                         }}
                       >
-                        <b style={{ fontSize: "20px" }}> Decada</b>
+                        <b style={{ fontSize: "20px" }}>Decada</b>
                       </u>
                     </span>
                   </TableCell>
@@ -194,7 +192,7 @@ export default function TableScon() {
                           textDecorationColor: "#fff",
                         }}
                       >
-                        <b style={{ fontSize: "20px" }}>Libro</b>
+                        <b style={{ fontSize: "20px" }}>Tecnologia</b>
                       </u>
                     </span>
                   </TableCell>
@@ -213,7 +211,9 @@ export default function TableScon() {
                     >
                       {row.name}
                     </TableCell>
-                    <TableCell align="center">{row.calories}</TableCell>
+                    <TableCell align="center" sx={{ bgcolor: "" }}>
+                      {row.calories}
+                    </TableCell>
                     <TableCell align="center">{row.fat}</TableCell>
                     <TableCell align="center">{row.carbs}</TableCell>
                   </TableRow>

@@ -15,6 +15,7 @@ import {
   Api,
   TableChart,
   Home,
+  ChevronRight,
 } from "@mui/icons-material";
 import Modal from "@mui/material/Modal";
 import { NavLink } from "react-router-dom";
@@ -75,18 +76,28 @@ export default function ResponsiveDrawer(props: Props) {
             }}
           >
             <Bookmarks
-              sx={{ mr: 1, ml: 3 }}
+              sx={{ mr: 1, ml: 1 }}
               fontSize="small"
               color="secondary"
             />
-            <Typography variant="h6" color={"#fff"}>
+            <Typography mr={1} variant="h6" color={"#fff"}>
               Indice
             </Typography>
-            <IconButton aria-label="delete" color="info" onClick={handleOpen}>
-              <Api
-                sx={{ backgroundColor: "#fff", borderRadius: "15px", p: "1px" }}
-              />
-            </IconButton>
+            <Button
+              variant="contained"
+              startIcon={<Api />}
+              onClick={handleOpen}
+              sx={{
+                backgroundColor: "#fff",
+                color: "#A970FF",
+                borderRadius: "15px",
+              }}
+              size="small"
+            >
+              <Typography variant="inherit" textTransform={"capitalize"}>
+                Menu
+              </Typography>
+            </Button>
           </ListItemIcon>
           <a
             href="#soci"
@@ -553,7 +564,22 @@ export default function ResponsiveDrawer(props: Props) {
                     color="info"
                     startIcon={<TableChart />}
                   >
-                    Tabla Sociedad del Conocimiento
+                    Tabla
+                    <ChevronRight /> Sociedad del Conocimiento
+                  </Button>
+                </NavLink>
+              </Stack>
+              <Stack mt={2}>
+                <NavLink to={"/table-sinfo"}>
+                  <Button
+                    component="label"
+                    variant="contained"
+                    color="info"
+                    startIcon={<TableChart />}
+                  >
+                    Tabla
+                    <ChevronRight />
+                    Sociedad de la información
                   </Button>
                 </NavLink>
               </Stack>
