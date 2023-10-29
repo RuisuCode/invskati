@@ -45,22 +45,22 @@ export default function TableScon() {
       <ResponsiveDrawer />
       <Stack alignItems={"center"}>
         <Stack mt={"50px"} width={"100%"}>
-          <TableContainer sx={{ borderRadius: "15px" }} component={Paper}>
-            <Typography
-              variant="h4"
-              mb={1}
-              textAlign={"center"}
-              sx={{
-                textDecoration: "underline",
-                textDecorationColor: "#A970FF",
-              }}
-            >
-              Sociedad del Conocimiento
-            </Typography>
-            <Table
-              sx={{ minWidth: 650, boxShadow: 5 }}
-              aria-label="simple table"
-            >
+          <Typography
+            variant="h4"
+            mb={1}
+            textAlign={"center"}
+            sx={{
+              textDecoration: "underline",
+              textDecorationColor: "#A970FF",
+            }}
+          >
+            Sociedad del Conocimiento
+          </Typography>
+          <TableContainer
+            sx={{ borderRadius: "15px", boxShadow: 5 }}
+            component={Paper}
+          >
+            <Table sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead>
                 <TableRow>
                   <TableCell align="center">
